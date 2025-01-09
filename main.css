@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 30px;
+}
+.container{
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+}
+.header__link{
+    color: #737373;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    text-decoration: none;
+
+}
+@media (max-width: 600px){
+    .header_list{
+        display: none;
+    }
+    .header_nav{
+        justify-content: center;
+    }
+}
+.hero{
+    padding-top: 40px;
+}
+.hero_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero_textbox{
+    width: 676px;
+}
+.hero__title{
+    color: rgb(0,0,0);
+    font-family: "Roboto";
+    font-size: 50px;
+    font-weight: 900;
+    font-height: 59px;
+    margin-bottom: 58px;
+}
+.hero__btn{
+    width: 179px;
+    border-radius: 7px;
+    border: none;
+background: linear-gradient(135.87deg, rgb(185, 1, 96) 2.23%,rgb(46, 49, 146) 99.506%);
+    padding: 15px 0;
+    color: #ffff;
+font-family: "Roboto";
+font-size: 20px;
+font-weight: 900;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+transition: 0.5 ease-in-out;
+}
+.hero__btn:hover{
+    background: rgb(64, 31, 48);
+}
+.header__link:hover{
+    color: rgb(185, 1, 96);
+}
+    @media (max-width: 680px;){
+        .hero_img{
+            display: none;
+        }
+        .hero_textbox{
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+
+@media (max-width: 950px;){
+    .hero_img{
+        max-width: 368px;
+        width: 100%;
+    }
+    .hero__title{
+        font-size: 40px;
+    }
+}
+.eva{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.eva_title{
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 59px;
+    text-align: center;
+    margin-bottom: 93px;
+}
+.eva_title span{
+    color: rgb(185, 1, 96);
+}
+.eva_box{
+    max-width: 344px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.eva_info{
+    padding: 20px;
+}
+.eva_heading{
+    color: rgb(0, 0, 0);
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-bottom: 10px;
+}
+.eva_text{
+    color: rgb(118, 118, 118);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+}
+.eva_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media (max-width: 1070px){
+    .eva_wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .eva_box{
+        max-width: 600px;
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .eva_box img{
+    max-width: 626px;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
